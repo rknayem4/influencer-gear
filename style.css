@@ -71,3 +71,51 @@ ul li a {
   border-top: 2px solid #d1d1d1;
   border-bottom: 2px solid #d1d1d1;
 }
+
+/* popular Collection */
+
+#collection{
+  max-width: 1200px;
+  margin: 100px auto;
+  position: relative;
+}
+#collection h2{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 47px;
+}
+.collection-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  justify-content: space-around;
+}
+
+.collection-container .card{
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 0 10px #00000020;
+  border-radius: 10px;
+}
+.card .card-img img{
+  width: 100%;
+}
+.card-content h3{
+  font-size: 28px;
+  font-weight: 200px;
+}
+.card-content .price{
+  font-size: 24px;
+}
+.card-content p{
+  color: #757575;
+}
+.card .star{
+  color: #FB8200;
+}
+.see-more{
+  position: absolute;
+  right: 0px;
+  padding: 20px;
+  color: #FB8200;
+}
